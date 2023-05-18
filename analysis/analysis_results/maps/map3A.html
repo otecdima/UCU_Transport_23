@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e1dd765baab547dd889d404e2746d41f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e1dd765baab547dd889d404e2746d41f" ></div>
+        
+</body>
+<script>    
+    
+            var map_e1dd765baab547dd889d404e2746d41f = L.map(
+                "map_e1dd765baab547dd889d404e2746d41f",
+                {
+                    center: [49.8397, 24.0297],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_41748fc01f574a7d882f69263a0223a0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+            var marker_d6ee6d778e2e491baba3e44b78a0a4e0 = L.marker(
+                [49.78749425311768, 24.01700940393107],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_b8bf1f1748e448a18cf46e844b0d5673 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05230c551eaa47c78bf910b7728b506e = $(`<div id="html_05230c551eaa47c78bf910b7728b506e" style="width: 100.0%; height: 100.0%;">Автовокзал;  Average waiting time/interval: 8.3</div>`)[0];
+            popup_b8bf1f1748e448a18cf46e844b0d5673.setContent(html_05230c551eaa47c78bf910b7728b506e);
+        
+
+        marker_d6ee6d778e2e491baba3e44b78a0a4e0.bindPopup(popup_b8bf1f1748e448a18cf46e844b0d5673)
+        ;
+
+        
+    
+    
+            var marker_aa86d082dc274b0797506edaab6583ec = L.marker(
+                [49.79255317970859, 24.016138019587967],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_ed8556734de94c08aa0dddb6678656e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ed7198db87d471e9c332be22b546915 = $(`<div id="html_4ed7198db87d471e9c332be22b546915" style="width: 100.0%; height: 100.0%;">вул. Михайла Максимовича;  Average waiting time/interval: 19.34</div>`)[0];
+            popup_ed8556734de94c08aa0dddb6678656e1.setContent(html_4ed7198db87d471e9c332be22b546915);
+        
+
+        marker_aa86d082dc274b0797506edaab6583ec.bindPopup(popup_ed8556734de94c08aa0dddb6678656e1)
+        ;
+
+        
+    
+    
+            var marker_5ca42b23003546019239add0cae469d1 = L.marker(
+                [49.79468613707576, 24.01665443781541],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_1e8d12a3e1dd46e4bdf12e07146f7f1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4134586d7dfa43b88e3cc1af27d9cb57 = $(`<div id="html_4134586d7dfa43b88e3cc1af27d9cb57" style="width: 100.0%; height: 100.0%;">вул. Ярослава Гашека;  Average waiting time/interval: 18.52</div>`)[0];
+            popup_1e8d12a3e1dd46e4bdf12e07146f7f1a.setContent(html_4134586d7dfa43b88e3cc1af27d9cb57);
+        
+
+        marker_5ca42b23003546019239add0cae469d1.bindPopup(popup_1e8d12a3e1dd46e4bdf12e07146f7f1a)
+        ;
+
+        
+    
+    
+            var marker_929d34ee51044195a804bc624aee795e = L.marker(
+                [49.79804962806848, 24.017355644820636],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_b48c5ce0bf9e438f8de2deccc9cce7a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f30e15b1dc2b44cb8890f357652467e4 = $(`<div id="html_f30e15b1dc2b44cb8890f357652467e4" style="width: 100.0%; height: 100.0%;">вул. Скорини;  Average waiting time/interval: 13.19</div>`)[0];
+            popup_b48c5ce0bf9e438f8de2deccc9cce7a1.setContent(html_f30e15b1dc2b44cb8890f357652467e4);
+        
+
+        marker_929d34ee51044195a804bc624aee795e.bindPopup(popup_b48c5ce0bf9e438f8de2deccc9cce7a1)
+        ;
+
+        
+    
+    
+            var marker_352e28524f46425e988689297abe1204 = L.marker(
+                [49.808559433403154, 24.01938455378441],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_bc094f649f17480fb2c027fc80e5756f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a802ed04ef8413eb7db978e5498b16e = $(`<div id="html_3a802ed04ef8413eb7db978e5498b16e" style="width: 100.0%; height: 100.0%;">Автобусний завод;  Average waiting time/interval: 14.06</div>`)[0];
+            popup_bc094f649f17480fb2c027fc80e5756f.setContent(html_3a802ed04ef8413eb7db978e5498b16e);
+        
+
+        marker_352e28524f46425e988689297abe1204.bindPopup(popup_bc094f649f17480fb2c027fc80e5756f)
+        ;
+
+        
+    
+    
+            var marker_6d1f550c2e4b486eadefc26cae2303a3 = L.marker(
+                [49.8455619399486, 24.02608744908175],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_c3fded8a983b4856b82e677cbf56f114 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cf8d6adbdae42f3a378d0d8deb45b34 = $(`<div id="html_8cf8d6adbdae42f3a378d0d8deb45b34" style="width: 100.0%; height: 100.0%;">пл. Різні;  Average waiting time/interval: 1.27</div>`)[0];
+            popup_c3fded8a983b4856b82e677cbf56f114.setContent(html_8cf8d6adbdae42f3a378d0d8deb45b34);
+        
+
+        marker_6d1f550c2e4b486eadefc26cae2303a3.bindPopup(popup_c3fded8a983b4856b82e677cbf56f114)
+        ;
+
+        
+    
+    
+            var marker_d48135bb5f0046ca95a943a1307cfbdc = L.marker(
+                [49.78420322268945, 24.01443911910798],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_b02d13b8605243ae83a79af152369c71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef7c97f163c84542870616914efe66a5 = $(`<div id="html_ef7c97f163c84542870616914efe66a5" style="width: 100.0%; height: 100.0%;">вул. Сокільницька;  Average waiting time/interval: 16.49</div>`)[0];
+            popup_b02d13b8605243ae83a79af152369c71.setContent(html_ef7c97f163c84542870616914efe66a5);
+        
+
+        marker_d48135bb5f0046ca95a943a1307cfbdc.bindPopup(popup_b02d13b8605243ae83a79af152369c71)
+        ;
+
+        
+    
+    
+            var marker_be526ab9fd434ed3b0b6384ca8d0ffa8 = L.marker(
+                [49.81528480712255, 24.02009126477989],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_e3218289398e450b8f78003cc8ee39e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c08df1759ae0481b83a6b5aaefd4ee8a = $(`<div id="html_c08df1759ae0481b83a6b5aaefd4ee8a" style="width: 100.0%; height: 100.0%;">Податкова;  Average waiting time/interval: 16.77</div>`)[0];
+            popup_e3218289398e450b8f78003cc8ee39e5.setContent(html_c08df1759ae0481b83a6b5aaefd4ee8a);
+        
+
+        marker_be526ab9fd434ed3b0b6384ca8d0ffa8.bindPopup(popup_e3218289398e450b8f78003cc8ee39e5)
+        ;
+
+        
+    
+    
+            var marker_ad55b4cc2b16468cac0e824449650173 = L.marker(
+                [49.82039254989356, 24.02045905913048],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_b5176e80783b48bbb82860c32db82aca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8144e52f70a443709139d9e94ce507f7 = $(`<div id="html_8144e52f70a443709139d9e94ce507f7" style="width: 100.0%; height: 100.0%;">Дитяча залізниця;  Average waiting time/interval: 11.45</div>`)[0];
+            popup_b5176e80783b48bbb82860c32db82aca.setContent(html_8144e52f70a443709139d9e94ce507f7);
+        
+
+        marker_ad55b4cc2b16468cac0e824449650173.bindPopup(popup_b5176e80783b48bbb82860c32db82aca)
+        ;
+
+        
+    
+    
+            var marker_1c772940088b4eb3b5225bf806bc1ac2 = L.marker(
+                [49.82534925405407, 24.022924189833063],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_93fb586cc0aa4242ad80b1f4687d2e49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bcf48dd9b3e4a41ad785c651e2bd43e = $(`<div id="html_8bcf48dd9b3e4a41ad785c651e2bd43e" style="width: 100.0%; height: 100.0%;">Академія сухопутних військ;  Average waiting time/interval: 15.01</div>`)[0];
+            popup_93fb586cc0aa4242ad80b1f4687d2e49.setContent(html_8bcf48dd9b3e4a41ad785c651e2bd43e);
+        
+
+        marker_1c772940088b4eb3b5225bf806bc1ac2.bindPopup(popup_93fb586cc0aa4242ad80b1f4687d2e49)
+        ;
+
+        
+    
+    
+            var marker_c7973658fb4e495b8dc993f90aca5273 = L.marker(
+                [49.84409172420485, 24.02564262788145],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_ab52517e5952413db1d1335068098aac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8be428f7d2c4ea78e945b9c129e09e5 = $(`<div id="html_e8be428f7d2c4ea78e945b9c129e09e5" style="width: 100.0%; height: 100.0%;">Театр опери та балету (зворотній);  Average waiting time/interval: 5.88</div>`)[0];
+            popup_ab52517e5952413db1d1335068098aac.setContent(html_e8be428f7d2c4ea78e945b9c129e09e5);
+        
+
+        marker_c7973658fb4e495b8dc993f90aca5273.bindPopup(popup_ab52517e5952413db1d1335068098aac)
+        ;
+
+        
+    
+    
+            var marker_0256d87e4f0a4aeaa353f08b01669203 = L.marker(
+                [49.82954260637525, 24.032278156109385],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_bf09aecad4034003a5e34ba0c86d182a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe111ca3147a49c2928bea4e02d4b728 = $(`<div id="html_fe111ca3147a49c2928bea4e02d4b728" style="width: 100.0%; height: 100.0%;">Стрийський ринок;  Average waiting time/interval: 11.93</div>`)[0];
+            popup_bf09aecad4034003a5e34ba0c86d182a.setContent(html_fe111ca3147a49c2928bea4e02d4b728);
+        
+
+        marker_0256d87e4f0a4aeaa353f08b01669203.bindPopup(popup_bf09aecad4034003a5e34ba0c86d182a)
+        ;
+
+        
+    
+    
+            var marker_42fd4d8c0f9145a6a76961cb82a6c1b5 = L.marker(
+                [49.84018109361715, 24.02812029023851],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_cb80f64147af44cb91e8efe920ad32c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b23afbfa7dd2442dba00c1483e106c0e = $(`<div id="html_b23afbfa7dd2442dba00c1483e106c0e" style="width: 100.0%; height: 100.0%;">пр. Свободи (зворотній);  Average waiting time/interval: 7.3</div>`)[0];
+            popup_cb80f64147af44cb91e8efe920ad32c4.setContent(html_b23afbfa7dd2442dba00c1483e106c0e);
+        
+
+        marker_42fd4d8c0f9145a6a76961cb82a6c1b5.bindPopup(popup_cb80f64147af44cb91e8efe920ad32c4)
+        ;
+
+        
+    
+    
+            var marker_356633df021d478e8fe07bd4afb4889f = L.marker(
+                [49.8338988614269, 24.03549688170544],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_f255159517df484f85ddec910520ed48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa11a80bc3284776a359b35ec75b3a8a = $(`<div id="html_aa11a80bc3284776a359b35ec75b3a8a" style="width: 100.0%; height: 100.0%;">пл. Петрушевича;  Average waiting time/interval: 16.11</div>`)[0];
+            popup_f255159517df484f85ddec910520ed48.setContent(html_aa11a80bc3284776a359b35ec75b3a8a);
+        
+
+        marker_356633df021d478e8fe07bd4afb4889f.bindPopup(popup_f255159517df484f85ddec910520ed48)
+        ;
+
+        
+    
+    
+            var marker_66cceb760aa74a89a7d55d5fa914de04 = L.marker(
+                [49.802644307478985, 24.01837681696409],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_ec7b8e18824d4ad4a73bd1fd37c6d2db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5742ff0578c14f6ab587942cc9e78205 = $(`<div id="html_5742ff0578c14f6ab587942cc9e78205" style="width: 100.0%; height: 100.0%;">вул. Стрийська - вул. Наукова;  Average waiting time/interval: 12.22</div>`)[0];
+            popup_ec7b8e18824d4ad4a73bd1fd37c6d2db.setContent(html_5742ff0578c14f6ab587942cc9e78205);
+        
+
+        marker_66cceb760aa74a89a7d55d5fa914de04.bindPopup(popup_ec7b8e18824d4ad4a73bd1fd37c6d2db)
+        ;
+
+        
+    
+    
+            var marker_ce67b9be88a04ce48acf766ee09fa850 = L.marker(
+                [49.83766245782201, 24.032959541568744],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_5ed539fd11e8496cbd25c10ba9709991 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b440369b7c34454d9ea231f3caadd093 = $(`<div id="html_b440369b7c34454d9ea231f3caadd093" style="width: 100.0%; height: 100.0%;">вул. Князя Романа (зворотній);  Average waiting time/interval: 9.72</div>`)[0];
+            popup_5ed539fd11e8496cbd25c10ba9709991.setContent(html_b440369b7c34454d9ea231f3caadd093);
+        
+
+        marker_ce67b9be88a04ce48acf766ee09fa850.bindPopup(popup_5ed539fd11e8496cbd25c10ba9709991)
+        ;
+
+        
+    
+    
+            var marker_5454a01a81cb4823a6a4131e010028fd = L.marker(
+                [49.83744248338933, 24.035054650810974],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_2a1cf5c112a24e478b23853c69e27edf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02f3e25c84954581aa79c655ec6d53b3 = $(`<div id="html_02f3e25c84954581aa79c655ec6d53b3" style="width: 100.0%; height: 100.0%;">вул. Володимира Шухевича;  Average waiting time/interval: 12.59</div>`)[0];
+            popup_2a1cf5c112a24e478b23853c69e27edf.setContent(html_02f3e25c84954581aa79c655ec6d53b3);
+        
+
+        marker_5454a01a81cb4823a6a4131e010028fd.bindPopup(popup_2a1cf5c112a24e478b23853c69e27edf)
+        ;
+
+        
+    
+    
+            var marker_b3a0d84594214cf68302f1f3aae0a0a6 = L.marker(
+                [49.83360048698322, 24.035188188009904],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_a5253577ed794482aa96398ecc8d6a6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0476151b709b4823a698a3119d68221a = $(`<div id="html_0476151b709b4823a698a3119d68221a" style="width: 100.0%; height: 100.0%;">вул. Шота Руставелі (зворотній);  Average waiting time/interval: 7.32</div>`)[0];
+            popup_a5253577ed794482aa96398ecc8d6a6b.setContent(html_0476151b709b4823a698a3119d68221a);
+        
+
+        marker_b3a0d84594214cf68302f1f3aae0a0a6.bindPopup(popup_a5253577ed794482aa96398ecc8d6a6b)
+        ;
+
+        
+    
+    
+            var marker_8b8fbdb8558c4d5aad1ddee422ac3283 = L.marker(
+                [49.84250084378937, 24.03519874598037],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_26790c364fa84e37935cf954099d1e0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3a62e66bd004e8c87244ee3a4561e8a = $(`<div id="html_c3a62e66bd004e8c87244ee3a4561e8a" style="width: 100.0%; height: 100.0%;">вул. Підвальна;  Average waiting time/interval: 13.71</div>`)[0];
+            popup_26790c364fa84e37935cf954099d1e0d.setContent(html_c3a62e66bd004e8c87244ee3a4561e8a);
+        
+
+        marker_8b8fbdb8558c4d5aad1ddee422ac3283.bindPopup(popup_26790c364fa84e37935cf954099d1e0d)
+        ;
+
+        
+    
+    
+            var marker_d3b406e92196490991364cbbe19e654e = L.marker(
+                [49.82989542840822, 24.03246559848786],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_9f7ff0c07a724cbc9afc414643404cb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cce29b7d7c44edb95fb43b8fa2727ab = $(`<div id="html_1cce29b7d7c44edb95fb43b8fa2727ab" style="width: 100.0%; height: 100.0%;">Стрийський ринок (зворотній);  Average waiting time/interval: 29.56</div>`)[0];
+            popup_9f7ff0c07a724cbc9afc414643404cb2.setContent(html_1cce29b7d7c44edb95fb43b8fa2727ab);
+        
+
+        marker_d3b406e92196490991364cbbe19e654e.bindPopup(popup_9f7ff0c07a724cbc9afc414643404cb2)
+        ;
+
+        
+    
+    
+            var marker_0f5e651fa7b64abb8e44673ce5d43624 = L.marker(
+                [49.82423889731485, 24.02061747244792],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_08cd623c1f1c4d1884dec66559cf8fcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a16d25011bfb4abe9a9075b9bfc16105 = $(`<div id="html_a16d25011bfb4abe9a9075b9bfc16105" style="width: 100.0%; height: 100.0%;">Академія сухопутних військ (зворотній);  Average waiting time/interval: 15.01</div>`)[0];
+            popup_08cd623c1f1c4d1884dec66559cf8fcb.setContent(html_a16d25011bfb4abe9a9075b9bfc16105);
+        
+
+        marker_0f5e651fa7b64abb8e44673ce5d43624.bindPopup(popup_08cd623c1f1c4d1884dec66559cf8fcb)
+        ;
+
+        
+    
+    
+            var marker_7709931695944168865c9887824e0090 = L.marker(
+                [49.82056688946227, 24.02019956725727],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_fb396395138340f7a7dcebf20833525b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_574d7dfa11134db0bc83200f8ae8a3bc = $(`<div id="html_574d7dfa11134db0bc83200f8ae8a3bc" style="width: 100.0%; height: 100.0%;">Дитяча залізниця (зворотній);  Average waiting time/interval: 11.99</div>`)[0];
+            popup_fb396395138340f7a7dcebf20833525b.setContent(html_574d7dfa11134db0bc83200f8ae8a3bc);
+        
+
+        marker_7709931695944168865c9887824e0090.bindPopup(popup_fb396395138340f7a7dcebf20833525b)
+        ;
+
+        
+    
+    
+            var marker_be977190f02a47d49387ff0209a5ed04 = L.marker(
+                [49.81500916906329, 24.0196612290905],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_7a7cb6673d1547fd8956ada1a6e4533a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3aa1b2667a5e43af90f4ad5261be488d = $(`<div id="html_3aa1b2667a5e43af90f4ad5261be488d" style="width: 100.0%; height: 100.0%;">Податкова (зворотній);  Average waiting time/interval: 15.14</div>`)[0];
+            popup_7a7cb6673d1547fd8956ada1a6e4533a.setContent(html_3aa1b2667a5e43af90f4ad5261be488d);
+        
+
+        marker_be977190f02a47d49387ff0209a5ed04.bindPopup(popup_7a7cb6673d1547fd8956ada1a6e4533a)
+        ;
+
+        
+    
+    
+            var marker_511ed66b6f0d460e9dd46ba65b50b846 = L.marker(
+                [49.80789529067955, 24.01900748898899],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_f2d6914d3f1045a5a5fb03cd7ba69e62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6af9243173c4b26b5bfa63e29fe1fd3 = $(`<div id="html_c6af9243173c4b26b5bfa63e29fe1fd3" style="width: 100.0%; height: 100.0%;">Автобусний завод (зворотній);  Average waiting time/interval: 17.07</div>`)[0];
+            popup_f2d6914d3f1045a5a5fb03cd7ba69e62.setContent(html_c6af9243173c4b26b5bfa63e29fe1fd3);
+        
+
+        marker_511ed66b6f0d460e9dd46ba65b50b846.bindPopup(popup_f2d6914d3f1045a5a5fb03cd7ba69e62)
+        ;
+
+        
+    
+    
+            var marker_d04da3da78964d5ca093ca66a926a439 = L.marker(
+                [49.79785714401484, 24.01680537467302],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_25ff97dcb9a04459aaf51706fd289f59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f70d41b021d04789bd8ccf9f6309029b = $(`<div id="html_f70d41b021d04789bd8ccf9f6309029b" style="width: 100.0%; height: 100.0%;">вул. Скорини (зворотній);  Average waiting time/interval: 15.1</div>`)[0];
+            popup_25ff97dcb9a04459aaf51706fd289f59.setContent(html_f70d41b021d04789bd8ccf9f6309029b);
+        
+
+        marker_d04da3da78964d5ca093ca66a926a439.bindPopup(popup_25ff97dcb9a04459aaf51706fd289f59)
+        ;
+
+        
+    
+    
+            var marker_c3ef3befd2fb41428b9dec4fbe68197d = L.marker(
+                [49.84487461423978, 24.027655693647567],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_82f50a8994e543a3b0382b308e86d9e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e04688ff68614aa69177413d43eb6dd8 = $(`<div id="html_e04688ff68614aa69177413d43eb6dd8" style="width: 100.0%; height: 100.0%;">вул. Театральна;  Average waiting time/interval: 4.98</div>`)[0];
+            popup_82f50a8994e543a3b0382b308e86d9e6.setContent(html_e04688ff68614aa69177413d43eb6dd8);
+        
+
+        marker_c3ef3befd2fb41428b9dec4fbe68197d.bindPopup(popup_82f50a8994e543a3b0382b308e86d9e6)
+        ;
+
+        
+    
+    
+            var marker_9e16732be093414c8ef54f6e27b4d553 = L.marker(
+                [49.79149892222282, 24.015453402453574],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_0e26de86c85b4d9bb511f4c54a97bb2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e6f17c0ab0c43abb426cc74039c0fe3 = $(`<div id="html_7e6f17c0ab0c43abb426cc74039c0fe3" style="width: 100.0%; height: 100.0%;">вул. Михайла Максимовича (зворотній);  Average waiting time/interval: 24.43</div>`)[0];
+            popup_0e26de86c85b4d9bb511f4c54a97bb2f.setContent(html_7e6f17c0ab0c43abb426cc74039c0fe3);
+        
+
+        marker_9e16732be093414c8ef54f6e27b4d553.bindPopup(popup_0e26de86c85b4d9bb511f4c54a97bb2f)
+        ;
+
+        
+    
+    
+            var marker_bea0043813e14669a929abe52ecc439a = L.marker(
+                [49.78764221474219, 24.014611323191996],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_991ceda0249a45d3aee25784fb3371f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06212f17923c4a80b4e6f9ded40051b7 = $(`<div id="html_06212f17923c4a80b4e6f9ded40051b7" style="width: 100.0%; height: 100.0%;">Автовокзал (зворотній);  Average waiting time/interval: 15.37</div>`)[0];
+            popup_991ceda0249a45d3aee25784fb3371f8.setContent(html_06212f17923c4a80b4e6f9ded40051b7);
+        
+
+        marker_bea0043813e14669a929abe52ecc439a.bindPopup(popup_991ceda0249a45d3aee25784fb3371f8)
+        ;
+
+        
+    
+    
+            var marker_6dd375394c194d90b44feaed78848cf7 = L.marker(
+                [49.783356657688245, 24.01385629802772],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_493874a02b6b4b73b4ee325c85df368e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d21a1d38d9f426692fdbbf309a1b59b = $(`<div id="html_0d21a1d38d9f426692fdbbf309a1b59b" style="width: 100.0%; height: 100.0%;">вул. Сокільницька (зворотній);  Average waiting time/interval: 17.31</div>`)[0];
+            popup_493874a02b6b4b73b4ee325c85df368e.setContent(html_0d21a1d38d9f426692fdbbf309a1b59b);
+        
+
+        marker_6dd375394c194d90b44feaed78848cf7.bindPopup(popup_493874a02b6b4b73b4ee325c85df368e)
+        ;
+
+        
+    
+    
+            var marker_463a9f9f60634906a29f2099f24c5285 = L.marker(
+                [49.80143897183252, 24.017578299050896],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_ac6bb7402be94bfe9f81c55bd6b45d6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_712f51e9bdb4492bb5017032a8a64c95 = $(`<div id="html_712f51e9bdb4492bb5017032a8a64c95" style="width: 100.0%; height: 100.0%;">вул. Стрийська - вул. Наукова (зворотній);  Average waiting time/interval: 16.58</div>`)[0];
+            popup_ac6bb7402be94bfe9f81c55bd6b45d6f.setContent(html_712f51e9bdb4492bb5017032a8a64c95);
+        
+
+        marker_463a9f9f60634906a29f2099f24c5285.bindPopup(popup_ac6bb7402be94bfe9f81c55bd6b45d6f)
+        ;
+
+        
+    
+    
+            var marker_bc7419cca2364ee49df52228adc70b1e = L.marker(
+                [49.79426009521457, 24.016016147536888],
+                {}
+            ).addTo(map_e1dd765baab547dd889d404e2746d41f);
+        
+    
+        var popup_8e05c29c685648699db840ea9ce4beb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf00e45d4c7f44f18af1a8a011af650d = $(`<div id="html_bf00e45d4c7f44f18af1a8a011af650d" style="width: 100.0%; height: 100.0%;">вул. Ярослава Гашека (зворотній);  Average waiting time/interval: 16.5</div>`)[0];
+            popup_8e05c29c685648699db840ea9ce4beb1.setContent(html_bf00e45d4c7f44f18af1a8a011af650d);
+        
+
+        marker_bc7419cca2364ee49df52228adc70b1e.bindPopup(popup_8e05c29c685648699db840ea9ce4beb1)
+        ;
+
+        
+    
+</script>

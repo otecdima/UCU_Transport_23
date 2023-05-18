@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_436f66ae3b1e4640a9cca0b8fde225e0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_436f66ae3b1e4640a9cca0b8fde225e0" ></div>
+        
+</body>
+<script>    
+    
+            var map_436f66ae3b1e4640a9cca0b8fde225e0 = L.map(
+                "map_436f66ae3b1e4640a9cca0b8fde225e0",
+                {
+                    center: [49.8397, 24.0297],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9055800611b148e49dfac773bd19d149 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+            var marker_a5f87dd26d654e40a1409ea6674e7744 = L.marker(
+                [49.85436194624659, 24.022701535745405],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_c9827a2454ee4d6ebd3f664f7e28484e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c314c1327bc34ab2b539149a261a370d = $(`<div id="html_c314c1327bc34ab2b539149a261a370d" style="width: 100.0%; height: 100.0%;">вул. Хімічна(зворотня);  Average waiting time/interval: 163.79</div>`)[0];
+            popup_c9827a2454ee4d6ebd3f664f7e28484e.setContent(html_c314c1327bc34ab2b539149a261a370d);
+        
+
+        marker_a5f87dd26d654e40a1409ea6674e7744.bindPopup(popup_c9827a2454ee4d6ebd3f664f7e28484e)
+        ;
+
+        
+    
+    
+            var marker_df028ddbef3c49debbf9bf2312737541 = L.marker(
+                [49.84894939755083, 24.024310124598745],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_8ee8138c275c4190a81126a078e90e66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3c44f55fdf94174a0425e573403dff4 = $(`<div id="html_a3c44f55fdf94174a0425e573403dff4" style="width: 100.0%; height: 100.0%;">вул. Пантелеймона Куліша  (зворотній);  Average waiting time/interval: 123.11</div>`)[0];
+            popup_8ee8138c275c4190a81126a078e90e66.setContent(html_a3c44f55fdf94174a0425e573403dff4);
+        
+
+        marker_df028ddbef3c49debbf9bf2312737541.bindPopup(popup_8ee8138c275c4190a81126a078e90e66)
+        ;
+
+        
+    
+    
+            var marker_017ec330764e4bb789c7ecb347e5d240 = L.marker(
+                [49.84633753622447, 24.02506137027314],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_80832adbea224ef69772da361789cd79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c055305fb5294596b4b05c2c83279630 = $(`<div id="html_c055305fb5294596b4b05c2c83279630" style="width: 100.0%; height: 100.0%;">вул. Зернова (180А);  Average waiting time/interval: 8.44</div>`)[0];
+            popup_80832adbea224ef69772da361789cd79.setContent(html_c055305fb5294596b4b05c2c83279630);
+        
+
+        marker_017ec330764e4bb789c7ecb347e5d240.bindPopup(popup_80832adbea224ef69772da361789cd79)
+        ;
+
+        
+    
+    
+            var marker_a465fc3b84ab4fcc875fe75f10655c33 = L.marker(
+                [49.84634587506685, 24.025062938871685],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_3201c4a9091b479993378a51d05be158 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e446001c7e404255980febfd031d2afc = $(`<div id="html_e446001c7e404255980febfd031d2afc" style="width: 100.0%; height: 100.0%;">вул. Зернова  (зворотній);  Average waiting time/interval: 6.28</div>`)[0];
+            popup_3201c4a9091b479993378a51d05be158.setContent(html_e446001c7e404255980febfd031d2afc);
+        
+
+        marker_a465fc3b84ab4fcc875fe75f10655c33.bindPopup(popup_3201c4a9091b479993378a51d05be158)
+        ;
+
+        
+    
+    
+            var marker_ea7eb6faa73148a0bfa340225635cb6a = L.marker(
+                [49.85451890442543, 24.02296491475145],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_64c7b82395ed49e6aa1d76f4326870d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72353b1d876e4f92b1b2a0e7a2d52b7d = $(`<div id="html_72353b1d876e4f92b1b2a0e7a2d52b7d" style="width: 100.0%; height: 100.0%;">вул. Хімічна;  Average waiting time/interval: 200.79</div>`)[0];
+            popup_64c7b82395ed49e6aa1d76f4326870d9.setContent(html_72353b1d876e4f92b1b2a0e7a2d52b7d);
+        
+
+        marker_ea7eb6faa73148a0bfa340225635cb6a.bindPopup(popup_64c7b82395ed49e6aa1d76f4326870d9)
+        ;
+
+        
+    
+    
+            var marker_41421679ce064a10a26178e5d97661d1 = L.marker(
+                [49.85778860401806, 24.021329163459946],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_fffa83d487bb4bf69aa0f5c3ffb019c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30ac953b2c52430fa748ff39f7bb2391 = $(`<div id="html_30ac953b2c52430fa748ff39f7bb2391" style="width: 100.0%; height: 100.0%;">Шевченківська райадміністрація;  Average waiting time/interval: 89.11</div>`)[0];
+            popup_fffa83d487bb4bf69aa0f5c3ffb019c1.setContent(html_30ac953b2c52430fa748ff39f7bb2391);
+        
+
+        marker_41421679ce064a10a26178e5d97661d1.bindPopup(popup_fffa83d487bb4bf69aa0f5c3ffb019c1)
+        ;
+
+        
+    
+    
+            var marker_b6e41b620ac14b5bb92a1c7714a46896 = L.marker(
+                [49.86259769755698, 24.01878174620097],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_2f4660ace6a448ccb3307d8a32aecd5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ee2fdcd3bea47b28e6f86c967f63414 = $(`<div id="html_7ee2fdcd3bea47b28e6f86c967f63414" style="width: 100.0%; height: 100.0%;">Парк 700-річчя Львова;  Average waiting time/interval: 43.52</div>`)[0];
+            popup_2f4660ace6a448ccb3307d8a32aecd5e.setContent(html_7ee2fdcd3bea47b28e6f86c967f63414);
+        
+
+        marker_b6e41b620ac14b5bb92a1c7714a46896.bindPopup(popup_2f4660ace6a448ccb3307d8a32aecd5e)
+        ;
+
+        
+    
+    
+            var marker_4e8b029ebdfb4eca8a42b84a4a442d6b = L.marker(
+                [49.87120429072675, 24.018613105265423],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_82c30b05a739438a8fc1e24bd0afcfd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09703c779f274efb915d9a62fcae4438 = $(`<div id="html_09703c779f274efb915d9a62fcae4438" style="width: 100.0%; height: 100.0%;">Замарстинів;  Average waiting time/interval: 133.77</div>`)[0];
+            popup_82c30b05a739438a8fc1e24bd0afcfd6.setContent(html_09703c779f274efb915d9a62fcae4438);
+        
+
+        marker_4e8b029ebdfb4eca8a42b84a4a442d6b.bindPopup(popup_82c30b05a739438a8fc1e24bd0afcfd6)
+        ;
+
+        
+    
+    
+            var marker_bf9690b0d4e34aca88d364b912ed7c55 = L.marker(
+                [49.899419675441614, 23.961528395383198],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_0549a63f2e5f4b1c8cef1575889638f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c994c079ea7b4b22b2c8244aa725398f = $(`<div id="html_c994c079ea7b4b22b2c8244aa725398f" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Весняна);  Average waiting time/interval: 201.22</div>`)[0];
+            popup_0549a63f2e5f4b1c8cef1575889638f0.setContent(html_c994c079ea7b4b22b2c8244aa725398f);
+        
+
+        marker_bf9690b0d4e34aca88d364b912ed7c55.bindPopup(popup_0549a63f2e5f4b1c8cef1575889638f0)
+        ;
+
+        
+    
+    
+            var marker_c98968389f014f20b20c649c6633060b = L.marker(
+                [49.89509807254802, 23.94608642002912],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_38be89e4feb44b2c9c8757e22612531b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26f772297cb54c1e9602b3cea91dabf8 = $(`<div id="html_26f772297cb54c1e9602b3cea91dabf8" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Смолиста);  Average waiting time/interval: 134.03</div>`)[0];
+            popup_38be89e4feb44b2c9c8757e22612531b.setContent(html_26f772297cb54c1e9602b3cea91dabf8);
+        
+
+        marker_c98968389f014f20b20c649c6633060b.bindPopup(popup_38be89e4feb44b2c9c8757e22612531b)
+        ;
+
+        
+    
+    
+            var marker_a07ac7220d28434cb2c628f99c823300 = L.marker(
+                [49.90409725103598, 23.940676772843094],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_c87790ba730d4b548f5ca9d2e0940dc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e02c72028b547068315c7071ed7eebd = $(`<div id="html_0e02c72028b547068315c7071ed7eebd" style="width: 100.0%; height: 100.0%;">смт Брюховичі (Вокзал);  Average waiting time/interval: 134.12</div>`)[0];
+            popup_c87790ba730d4b548f5ca9d2e0940dc4.setContent(html_0e02c72028b547068315c7071ed7eebd);
+        
+
+        marker_a07ac7220d28434cb2c628f99c823300.bindPopup(popup_c87790ba730d4b548f5ca9d2e0940dc4)
+        ;
+
+        
+    
+    
+            var marker_6184cef0d6794445836604a62aaa4f3b = L.marker(
+                [49.92222787546724, 23.982338474787998],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_e41a3124b4064daaa89759c2b572ba5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdd25c5b415b4f47b783f77be0894cd0 = $(`<div id="html_bdd25c5b415b4f47b783f77be0894cd0" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Під Осовою);  Average waiting time/interval: 13.72</div>`)[0];
+            popup_e41a3124b4064daaa89759c2b572ba5e.setContent(html_bdd25c5b415b4f47b783f77be0894cd0);
+        
+
+        marker_6184cef0d6794445836604a62aaa4f3b.bindPopup(popup_e41a3124b4064daaa89759c2b572ba5e)
+        ;
+
+        
+    
+    
+            var marker_fe12de7001dc465481031740b2268c66 = L.marker(
+                [49.92222469407257, 23.98234925009034],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_fa170370a3674b0dae97128207dcd0e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b737bb258c844379490cd7b5ae68b83 = $(`<div id="html_0b737bb258c844379490cd7b5ae68b83" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Під Осовою) (зворотній);  Average waiting time/interval: 31.49</div>`)[0];
+            popup_fa170370a3674b0dae97128207dcd0e6.setContent(html_0b737bb258c844379490cd7b5ae68b83);
+        
+
+        marker_fe12de7001dc465481031740b2268c66.bindPopup(popup_fa170370a3674b0dae97128207dcd0e6)
+        ;
+
+        
+    
+    
+            var marker_f98519d23d79405196db2b77e06f8472 = L.marker(
+                [49.91732605432094, 23.968155478484945],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_b1e64d047b6e47e69e3f930d5d601879 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9db65bfed1341dfa521b0b670471729 = $(`<div id="html_b9db65bfed1341dfa521b0b670471729" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Січових Стрільців) (зворотній);  Average waiting time/interval: 203.12</div>`)[0];
+            popup_b1e64d047b6e47e69e3f930d5d601879.setContent(html_b9db65bfed1341dfa521b0b670471729);
+        
+
+        marker_f98519d23d79405196db2b77e06f8472.bindPopup(popup_b1e64d047b6e47e69e3f930d5d601879)
+        ;
+
+        
+    
+    
+            var marker_034bf9c152cd467e85c94023cf133381 = L.marker(
+                [49.9140140286374, 23.965388477626856],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_5086016b091940478f3869562e190198 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f78a43764bb4177b4600c28a4ea4ef6 = $(`<div id="html_4f78a43764bb4177b4600c28a4ea4ef6" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Вербова) (зворотній);  Average waiting time/interval: 202.71</div>`)[0];
+            popup_5086016b091940478f3869562e190198.setContent(html_4f78a43764bb4177b4600c28a4ea4ef6);
+        
+
+        marker_034bf9c152cd467e85c94023cf133381.bindPopup(popup_5086016b091940478f3869562e190198)
+        ;
+
+        
+    
+    
+            var marker_5ec08bac5ad44b929340bc872218e2f9 = L.marker(
+                [49.90454738418247, 23.9602109920997],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_01bbd254346f4bbb9f78f5b146f79cb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88dba9ad1a994f0b89c0b7b40c015dbc = $(`<div id="html_88dba9ad1a994f0b89c0b7b40c015dbc" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Курортна) (зворотній);  Average waiting time/interval: 203.21</div>`)[0];
+            popup_01bbd254346f4bbb9f78f5b146f79cb7.setContent(html_88dba9ad1a994f0b89c0b7b40c015dbc);
+        
+
+        marker_5ec08bac5ad44b929340bc872218e2f9.bindPopup(popup_01bbd254346f4bbb9f78f5b146f79cb7)
+        ;
+
+        
+    
+    
+            var marker_64e722f3ea4c4361af317a6388cf8164 = L.marker(
+                [49.90579254934722, 23.95736780674696],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_850384acb2814ae797820ec4425d601a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c53d8bb40cae4a01b5d8a8a2839681a9 = $(`<div id="html_c53d8bb40cae4a01b5d8a8a2839681a9" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Пляжна) (зворотній);  Average waiting time/interval: 406.38</div>`)[0];
+            popup_850384acb2814ae797820ec4425d601a.setContent(html_c53d8bb40cae4a01b5d8a8a2839681a9);
+        
+
+        marker_64e722f3ea4c4361af317a6388cf8164.bindPopup(popup_850384acb2814ae797820ec4425d601a)
+        ;
+
+        
+    
+    
+            var marker_89266990b62c465485adacc2568d5f2e = L.marker(
+                [49.90365933287071, 23.9398362445801],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_def67033282e40408a30ca2d2642533c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56d54011c8af445682774695fab4efc8 = $(`<div id="html_56d54011c8af445682774695fab4efc8" style="width: 100.0%; height: 100.0%;">смт Брюховичі (Вокзал) (зворотній);  Average waiting time/interval: nan</div>`)[0];
+            popup_def67033282e40408a30ca2d2642533c.setContent(html_56d54011c8af445682774695fab4efc8);
+        
+
+        marker_89266990b62c465485adacc2568d5f2e.bindPopup(popup_def67033282e40408a30ca2d2642533c)
+        ;
+
+        
+    
+    
+            var marker_46b0e364377e44c186ba36006ffef7ef = L.marker(
+                [49.89923931938776, 23.96147944907625],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_ebd2f205713544d7afca8eeaf6c24fa4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d92b40b707aa4833997f843ebba6b503 = $(`<div id="html_d92b40b707aa4833997f843ebba6b503" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Весняна) (зворотній);  Average waiting time/interval: 102.08</div>`)[0];
+            popup_ebd2f205713544d7afca8eeaf6c24fa4.setContent(html_d92b40b707aa4833997f843ebba6b503);
+        
+
+        marker_46b0e364377e44c186ba36006ffef7ef.bindPopup(popup_ebd2f205713544d7afca8eeaf6c24fa4)
+        ;
+
+        
+    
+    
+            var marker_d53787a821204cbeb7fd33fa47a4ceca = L.marker(
+                [49.85635355165567, 24.021680241417304],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_6ea3637619ac46829ca84528815d443d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5995f92c6e15405f963cc76d4732895a = $(`<div id="html_5995f92c6e15405f963cc76d4732895a" style="width: 100.0%; height: 100.0%;">Шевченківська райадміністрація(зворотня) 1;  Average waiting time/interval: 2.83</div>`)[0];
+            popup_6ea3637619ac46829ca84528815d443d.setContent(html_5995f92c6e15405f963cc76d4732895a);
+        
+
+        marker_d53787a821204cbeb7fd33fa47a4ceca.bindPopup(popup_6ea3637619ac46829ca84528815d443d)
+        ;
+
+        
+    
+    
+            var marker_75a9ea56e85b4f63813750967fc89423 = L.marker(
+                [49.87805510770343, 24.003394522360896],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_a11de97e37104051967dee32fcf83f98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68a6424cf68e4b97a6d6185752455dbe = $(`<div id="html_68a6424cf68e4b97a6d6185752455dbe" style="width: 100.0%; height: 100.0%;">Дитячий диспансер;  Average waiting time/interval: nan</div>`)[0];
+            popup_a11de97e37104051967dee32fcf83f98.setContent(html_68a6424cf68e4b97a6d6185752455dbe);
+        
+
+        marker_75a9ea56e85b4f63813750967fc89423.bindPopup(popup_a11de97e37104051967dee32fcf83f98)
+        ;
+
+        
+    
+    
+            var marker_e504cb2c29fc428aa227d0bca3c4c845 = L.marker(
+                [49.89749377990268, 23.964138823977432],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_f96c9dfd53c644918eb303143fd2cb12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43413486a9994c61b33ef11ca8e39bb1 = $(`<div id="html_43413486a9994c61b33ef11ca8e39bb1" style="width: 100.0%; height: 100.0%;">смт Брюховичі (Цвинтар);  Average waiting time/interval: nan</div>`)[0];
+            popup_f96c9dfd53c644918eb303143fd2cb12.setContent(html_43413486a9994c61b33ef11ca8e39bb1);
+        
+
+        marker_e504cb2c29fc428aa227d0bca3c4c845.bindPopup(popup_f96c9dfd53c644918eb303143fd2cb12)
+        ;
+
+        
+    
+    
+            var marker_c5fbc7be50ef4d11915ce5966860a6fe = L.marker(
+                [49.90438799813314, 23.96007591883721],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_0a8922c7943445508603de975fb2c017 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34e7cd1c10184c71bc78e7ed8de1016f = $(`<div id="html_34e7cd1c10184c71bc78e7ed8de1016f" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Курортна);  Average waiting time/interval: 155.67</div>`)[0];
+            popup_0a8922c7943445508603de975fb2c017.setContent(html_34e7cd1c10184c71bc78e7ed8de1016f);
+        
+
+        marker_c5fbc7be50ef4d11915ce5966860a6fe.bindPopup(popup_0a8922c7943445508603de975fb2c017)
+        ;
+
+        
+    
+    
+            var marker_ba0296a371af408ea517215011d5952b = L.marker(
+                [49.91408591800153, 23.96559207877841],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_c160a6be84ac46d3874e896220bcae3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77d8a854f2b84956b5f9bd2267df0af3 = $(`<div id="html_77d8a854f2b84956b5f9bd2267df0af3" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Вербова);  Average waiting time/interval: 88.02</div>`)[0];
+            popup_c160a6be84ac46d3874e896220bcae3e.setContent(html_77d8a854f2b84956b5f9bd2267df0af3);
+        
+
+        marker_ba0296a371af408ea517215011d5952b.bindPopup(popup_c160a6be84ac46d3874e896220bcae3e)
+        ;
+
+        
+    
+    
+            var marker_8059ae6cb3134f2d81e0a843e6426a0d = L.marker(
+                [49.91729813158405, 23.968372333449235],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_82a8a6b7641d46f08d7ec3457e80e357 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_076a48fc1a654696b6b5be1846e991e7 = $(`<div id="html_076a48fc1a654696b6b5be1846e991e7" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Січових Стрільців);  Average waiting time/interval: 88.25</div>`)[0];
+            popup_82a8a6b7641d46f08d7ec3457e80e357.setContent(html_076a48fc1a654696b6b5be1846e991e7);
+        
+
+        marker_8059ae6cb3134f2d81e0a843e6426a0d.bindPopup(popup_82a8a6b7641d46f08d7ec3457e80e357)
+        ;
+
+        
+    
+    
+            var marker_0b8f36c72745442e96617830a7f0eb70 = L.marker(
+                [49.90175435468829, 23.941598323047003],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_0c1e3f936a6c4ddd8c434c54192b5dfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2976b3b9da648bcbae2bafe6164b7ad = $(`<div id="html_d2976b3b9da648bcbae2bafe6164b7ad" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Івасюка) (зворотній);  Average waiting time/interval: 78.6</div>`)[0];
+            popup_0c1e3f936a6c4ddd8c434c54192b5dfc.setContent(html_d2976b3b9da648bcbae2bafe6164b7ad);
+        
+
+        marker_0b8f36c72745442e96617830a7f0eb70.bindPopup(popup_0c1e3f936a6c4ddd8c434c54192b5dfc)
+        ;
+
+        
+    
+    
+            var marker_7845ee5216d84dafa2a9d53129bf9ca7 = L.marker(
+                [49.89473813467581, 23.94662848797804],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_44e0a8895ea4496ca3e24bd7085efef1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9944e80243a42d790afe8fea106f000 = $(`<div id="html_f9944e80243a42d790afe8fea106f000" style="width: 100.0%; height: 100.0%;">смт Брюховичі (вул. Смолиста) (зворотній);  Average waiting time/interval: 85.17</div>`)[0];
+            popup_44e0a8895ea4496ca3e24bd7085efef1.setContent(html_f9944e80243a42d790afe8fea106f000);
+        
+
+        marker_7845ee5216d84dafa2a9d53129bf9ca7.bindPopup(popup_44e0a8895ea4496ca3e24bd7085efef1)
+        ;
+
+        
+    
+    
+            var marker_22c5b640be3b431e9958fa7404fb03d3 = L.marker(
+                [49.897381, 23.96392863558232],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_aa751f74d4834a81987fdfc6bd36e03d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_893a5e5b4bff491694042a377f7af3de = $(`<div id="html_893a5e5b4bff491694042a377f7af3de" style="width: 100.0%; height: 100.0%;">смт Брюховичі (Цвинтар) (зворотній);  Average waiting time/interval: 315.25</div>`)[0];
+            popup_aa751f74d4834a81987fdfc6bd36e03d.setContent(html_893a5e5b4bff491694042a377f7af3de);
+        
+
+        marker_22c5b640be3b431e9958fa7404fb03d3.bindPopup(popup_aa751f74d4834a81987fdfc6bd36e03d)
+        ;
+
+        
+    
+    
+            var marker_942a4ca2f6e14a238e9b092640b8d09e = L.marker(
+                [49.87129756348497, 24.018041181272277],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_69960b9d46434111a0d5bf98828a8de8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52c5bd3635b041aaba777568af48edb1 = $(`<div id="html_52c5bd3635b041aaba777568af48edb1" style="width: 100.0%; height: 100.0%;">Замарстинів (зворотній);  Average waiting time/interval: 314.33</div>`)[0];
+            popup_69960b9d46434111a0d5bf98828a8de8.setContent(html_52c5bd3635b041aaba777568af48edb1);
+        
+
+        marker_942a4ca2f6e14a238e9b092640b8d09e.bindPopup(popup_69960b9d46434111a0d5bf98828a8de8)
+        ;
+
+        
+    
+    
+            var marker_bd5290b877644a2fb862bab81d895631 = L.marker(
+                [49.85817265958928, 24.02068624726024],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_238b36dcba8746f8b5087e7baf8841ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d00db7f05cd4cc294f95f5bbdda0247 = $(`<div id="html_5d00db7f05cd4cc294f95f5bbdda0247" style="width: 100.0%; height: 100.0%;">Шевченківська райадміністрація(зворотня);  Average waiting time/interval: nan</div>`)[0];
+            popup_238b36dcba8746f8b5087e7baf8841ba.setContent(html_5d00db7f05cd4cc294f95f5bbdda0247);
+        
+
+        marker_bd5290b877644a2fb862bab81d895631.bindPopup(popup_238b36dcba8746f8b5087e7baf8841ba)
+        ;
+
+        
+    
+    
+            var marker_65ef1c4c2b0846a598efa7ebbbaf49e8 = L.marker(
+                [49.85127702575775, 24.024413557261155],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_8ac7f427553d409eb6b1faa33ef89e99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e50627ad89f48dc966f7954b494c505 = $(`<div id="html_9e50627ad89f48dc966f7954b494c505" style="width: 100.0%; height: 100.0%;">Палац культури ім. Гната Хоткевича;  Average waiting time/interval: 111.6</div>`)[0];
+            popup_8ac7f427553d409eb6b1faa33ef89e99.setContent(html_9e50627ad89f48dc966f7954b494c505);
+        
+
+        marker_65ef1c4c2b0846a598efa7ebbbaf49e8.bindPopup(popup_8ac7f427553d409eb6b1faa33ef89e99)
+        ;
+
+        
+    
+    
+            var marker_725c1838342a47d8a32986341e7ec83e = L.marker(
+                [49.86592447085236, 24.01713041692232],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_33fc061c70f748dea2a3ba43951c988f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd53da532e05427f92c7d67178c78675 = $(`<div id="html_fd53da532e05427f92c7d67178c78675" style="width: 100.0%; height: 100.0%;">вул. Варшавська;  Average waiting time/interval: nan</div>`)[0];
+            popup_33fc061c70f748dea2a3ba43951c988f.setContent(html_fd53da532e05427f92c7d67178c78675);
+        
+
+        marker_725c1838342a47d8a32986341e7ec83e.bindPopup(popup_33fc061c70f748dea2a3ba43951c988f)
+        ;
+
+        
+    
+    
+            var marker_368f4a6cf4fb47aa90fee041276ccb1e = L.marker(
+                [49.90272174694766, 23.941304385504843],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_6ecd2f6270ee4ab88ebb1bc1c74ab991 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_241937c0509d41ba8b9d60f6ee67aca2 = $(`<div id="html_241937c0509d41ba8b9d60f6ee67aca2" style="width: 100.0%; height: 100.0%;">смт Брюховичі (Сільрада);  Average waiting time/interval: nan</div>`)[0];
+            popup_6ecd2f6270ee4ab88ebb1bc1c74ab991.setContent(html_241937c0509d41ba8b9d60f6ee67aca2);
+        
+
+        marker_368f4a6cf4fb47aa90fee041276ccb1e.bindPopup(popup_6ecd2f6270ee4ab88ebb1bc1c74ab991)
+        ;
+
+        
+    
+    
+            var marker_e35d8861296f455fbde40ecf6bbade84 = L.marker(
+                [49.87378993839088, 24.013551629554264],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_ff2fe64ee3514c7ead41a44a4af0ef0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9ce25991c3d4b47b202934b7a532fa1 = $(`<div id="html_e9ce25991c3d4b47b202934b7a532fa1" style="width: 100.0%; height: 100.0%;">Поліклініка УМВС (зворотній);  Average waiting time/interval: nan</div>`)[0];
+            popup_ff2fe64ee3514c7ead41a44a4af0ef0e.setContent(html_e9ce25991c3d4b47b202934b7a532fa1);
+        
+
+        marker_e35d8861296f455fbde40ecf6bbade84.bindPopup(popup_ff2fe64ee3514c7ead41a44a4af0ef0e)
+        ;
+
+        
+    
+    
+            var marker_02c3e99b3bb8451bbab4f10be8a23a77 = L.marker(
+                [49.8695876877851, 24.018264344897805],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_d261f8444c1548cfbe09a4a5f9cd4268 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1d30c9177794af08ffce789c93d23a8 = $(`<div id="html_c1d30c9177794af08ffce789c93d23a8" style="width: 100.0%; height: 100.0%;">Голоско (зворотній);  Average waiting time/interval: 229.1</div>`)[0];
+            popup_d261f8444c1548cfbe09a4a5f9cd4268.setContent(html_c1d30c9177794af08ffce789c93d23a8);
+        
+
+        marker_02c3e99b3bb8451bbab4f10be8a23a77.bindPopup(popup_d261f8444c1548cfbe09a4a5f9cd4268)
+        ;
+
+        
+    
+    
+            var marker_b86027cb02d248dc991246c53b0398c8 = L.marker(
+                [49.8667207158774, 24.016088319504835],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_8052a679ad9c441eabee1ada17c8e955 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54f84109b965470fa4b23f36cd47a100 = $(`<div id="html_54f84109b965470fa4b23f36cd47a100" style="width: 100.0%; height: 100.0%;">вул. Варшавська(зворотня);  Average waiting time/interval: 228.23</div>`)[0];
+            popup_8052a679ad9c441eabee1ada17c8e955.setContent(html_54f84109b965470fa4b23f36cd47a100);
+        
+
+        marker_b86027cb02d248dc991246c53b0398c8.bindPopup(popup_8052a679ad9c441eabee1ada17c8e955)
+        ;
+
+        
+    
+    
+            var marker_4d346ae8673e4991a70383dd74c17d41 = L.marker(
+                [49.86185125091828, 24.01861361508448],
+                {}
+            ).addTo(map_436f66ae3b1e4640a9cca0b8fde225e0);
+        
+    
+        var popup_af6f2351fa624a9895e1ccebf8fbd085 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1be5d5acb6494da095139fe97754aa0c = $(`<div id="html_1be5d5acb6494da095139fe97754aa0c" style="width: 100.0%; height: 100.0%;">Парк 700-річчя Львова(зворотня);  Average waiting time/interval: 229.18</div>`)[0];
+            popup_af6f2351fa624a9895e1ccebf8fbd085.setContent(html_1be5d5acb6494da095139fe97754aa0c);
+        
+
+        marker_4d346ae8673e4991a70383dd74c17d41.bindPopup(popup_af6f2351fa624a9895e1ccebf8fbd085)
+        ;
+
+        
+    
+</script>
