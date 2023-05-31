@@ -20,6 +20,8 @@ if __name__ == '__main__':
     for stop in new_list:
         temporary = bus_3A[bus_3A["stop_name"] == stop]
         temporary = temporary.sort_values(by=["timestamp"])
+        duplicates = temporary["vehicle_id"].duplicated()
+        temporary = temporary[~duplicates]
         time_array = temporary['timestamp'].to_list()
         for i in range(0, len(time_array) - 1):
             time_array[i] = time_array[i + 1] - time_array[i]
